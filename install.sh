@@ -4,7 +4,7 @@
 # This is written in bash for the sake of simplicity
 #
 
-echo "This script is bad"
+echo "Starting script"
 
 if [[ "$#" != 0 ]]; then
 	echo "This script takes no arguments"
@@ -28,12 +28,12 @@ themes_dir=$(pwd)
 
 safe-cd "$HOME/.config/sublime-text-3/Packages"
 
-mkdir '\-One-Dark-Package-'
-cp "${themes_dir}/One Dark.tmTheme" '\-One-Dark-Package-/'
+mkdir 'One-Dark-Package'
+cp "${themes_dir}/One Dark.tmTheme" 'One-Dark-Package'
 
-mkdir '\-Eighties-Dark-Package-'
-cp "${themes_dir}/Eighties Dark.tmTheme" '\-Eighties-Dark-Package-/'
+mkdir 'Eighties-Dark-Package'
+cp "${themes_dir}/Eighties Dark.tmTheme" 'Eighties-Dark-Package'
 
-echo "Is everything working? Ok..."
+echo "Fine, no errors, check if your themes are now available inside of sublime."
 
 set +e
