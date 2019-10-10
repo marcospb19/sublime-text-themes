@@ -4,7 +4,7 @@
 # This is written in bash for the sake of simplicity
 #
 
-echo "Starting script"
+echo "Starting script..."
 
 if [[ "$#" != 0 ]]; then
 	echo "This script takes no arguments"

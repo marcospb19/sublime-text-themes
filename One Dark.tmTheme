@@ -42,13 +42,15 @@
 				<string>#747369dd</string>
 				<key>lineHighlight</key>
 				<string>#4c576730</string>
-				<!-- Edited for the vintage mode
-				<key>selection</key>
-				<string>#aD4350b4</string> -->
 				<key>selection</key>
 				<string>#3D4350aa</string>
 				<key>selectionBorder</key>
 				<string>#dd99ffcc</string>
+				<!-- Alternative when using vintage mode -->
+				<!-- <key>selection</key>                -->
+				<!-- <string>#528BFFcc</string>          -->
+				<!-- <key>selectionBorder</key>          -->
+				<!-- <string>#72aBFF</string>            -->
 			</dict>
 		</dict>
 		<dict>
