@@ -33,11 +33,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#282C34</string>
+				<string>#272B32</string>
 				<key>caret</key>
 				<string>#528BFF</string>
 				<key>foreground</key>
-				<string>#ABB2BF</string>
+				<string>#CFCCCA</string>
 				<key>invisibles</key>
 				<string>#747369dd</string>
 				<key>lineHighlight</key>
@@ -96,7 +96,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DB5080</string>
+				<string>#EB7099</string>
 			</dict>
 		</dict>
 		<dict>
@@ -968,7 +968,46 @@
 			</dict>
 		</dict>
 
-<!-- regex -->
+
+		<dict>
+			<key>name</key>
+			<string>angle brackets</string>
+			<key>scope</key>
+			<string>punctuation.section.arguments</string>
+			<key>settings</key>
+			<dict>
+ 				<key>foreground</key>
+				<string>#ffffffa0</string>
+			</dict>
+		</dict>
+
+
+		<dict>
+			<key>name</key>
+			<string>angle brackets</string>
+			<key>scope</key>
+			<string>meta.function-call.arguments</string>
+			<key>settings</key>
+			<dict>
+ 				<key>foreground</key>
+				<string>#E8aaaaee</string>
+			</dict>
+		</dict>
+
+
+		<dict>
+			<key>name</key>
+			<string>angle brackets</string>
+			<key>scope</key>
+			<string>punctuation.separator.arguments</string>
+			<key>settings</key>
+			<dict>
+ 				<key>foreground</key>
+				<string>#ffffffdd</string>
+			</dict>
+		</dict>
+
+
 		<dict>
 			<key>name</key>
 			<string>angle brackets</string>
@@ -990,37 +1029,9 @@
 			<key>settings</key>
 			<dict>
  				<key>foreground</key>
-				<string>#ff6b99</string>
+				<string>#ffdd33ef</string>
 			</dict>
 		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>angle brackets</string>
-			<key>scope</key>
-			<string>constant.character.character-class.regexp</string>
-			<key>settings</key>
-			<dict>
- 				<key>foreground</key>
-				<string>#54fa54ea</string>
-			</dict>
-		</dict>
-
-
-
-		<dict>
-			<key>name</key>
-			<string>angle brackets</string>
-			<key>scope</key>
-			<string>meta.group.regexp</string>
-			<key>settings</key>
-			<dict>
- 				<key>foreground</key>
-				<string>#ffffffee</string>
-			</dict>
-		</dict>
-
-
 
 
 	</array>
