@@ -21,7 +21,7 @@
 		<key>divider</key>
 		<string>#393939</string>
 		<key>foreground</key>
-		<string>#747369</string>
+		<string>#74736960</string>
 		<key>selectionBackground</key>
 		<string>#515151</string>
 		<key>selectionForeground</key>
@@ -37,7 +37,7 @@
 				<key>caret</key>
 				<string>#528BFF</string>
 				<key>foreground</key>
-				<string>#ABB2BF</string>
+				<string>#d0d0d0</string>
 				<key>invisibles</key>
 				<string>#747369dd</string>
 				<key>lineHighlight</key>
@@ -147,13 +147,35 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Structs</string>
+			<key>scope</key>
+			<string>support.struct, entity.name.struct, entity.name.type.struct</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a8FFc0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
 			<string>meta.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E0a0c0</string>
+				<string>#FFBBcc</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Structs</string>
+			<key>scope</key>
+			<string>meta.struct</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#aff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1016,7 +1038,7 @@
 			<key>settings</key>
 			<dict>
  				<key>foreground</key>
-				<string>#ffffffee</string>
+				<string>#ffbb77</string>
 			</dict>
 		</dict>
 
