@@ -129,9 +129,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#61AFEF</string>
+				<string>#0fc</string>
 				<key>background</key>
-				<string>#ffffff10</string>
+				<string>#99ffdd15</string>
 			</dict>
 		</dict>
 		<dict>
@@ -143,6 +143,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#E5C07B</string>
+				<key>background</key>
+				<string>#E5C07B15</string>
 			</dict>
 		</dict>
 		<dict>
@@ -154,6 +156,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#a8FFc0</string>
+				<key>background</key>
+				<string>#a8FFc017</string>
 			</dict>
 		</dict>
 		<dict>
