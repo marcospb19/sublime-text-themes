@@ -39,9 +39,9 @@
 				<key>foreground</key>
 				<string>#d0d0d0</string>
 				<key>invisibles</key>
-				<string>#747369dd</string>
+				<string>#dd99ffcc</string>
 				<key>lineHighlight</key>
-				<string>#4c576730</string>
+				<string>#50586850</string>
 				<key>selection</key>
 				<string>#3D4350aa</string>
 				<key>selectionBorder</key>
@@ -96,7 +96,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DB5080</string>
+				<string>#ff60a0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,7 +107,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C678DD</string>
+				<string>#ff84c0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -160,7 +160,7 @@
 				<string>#a8FFc017</string>
 			</dict>
 		</dict>
-		<dict>
+<!-- 		<dict>
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
@@ -171,7 +171,7 @@
 				<string>#FFBBcc</string>
 			</dict>
 		</dict>
-		<dict>
+ -->		<!-- <dict>
 			<key>name</key>
 			<string>Structs</string>
 			<key>scope</key>
@@ -181,7 +181,7 @@
 				<key>foreground</key>
 				<string>#aff</string>
 			</dict>
-		</dict>
+		</dict> -->
 		<dict>
 			<key>name</key>
 			<string>Methods</string>
@@ -224,6 +224,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#98C379</string>
+				<key>background</key>
+				<string>#98C3790a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -234,7 +236,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D19A66</string>
+				<string>#f1aa66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -978,7 +980,7 @@
 			<key>settings</key>
 			<dict>
  				<key>foreground</key>
-				<string>#ffffff77</string>
+				<string>#fffafabb</string>
 			</dict>
 		</dict>
 
@@ -990,7 +992,7 @@
 			<key>settings</key>
 			<dict>
  				<key>foreground</key>
-				<string>#ffffffbb</string>
+				<string>#fffff5cc</string>
 			</dict>
 		</dict>
 
@@ -1046,6 +1048,78 @@
 			</dict>
 		</dict>
 
+
+
+
+		<dict>
+			<key>name</key>
+			<string>methods call</string>
+			<key>scope</key>
+			<string>variable.function.member</string>
+			<key>settings</key>
+			<dict>
+ 				<key>foreground</key>
+				<string>#FFafc3</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>method call dot</string>
+			<key>scope</key>
+			<!-- <string>punctuation.accessor.dot</string> -->
+			<string>punctuation.accessor</string>
+			<key>settings</key>
+			<dict>
+ 				<key>foreground</key>
+				<string>#fff</string>
+ 				<key>background</key>
+				<string>#00000006</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>method call dot</string>
+			<key>scope</key>
+			<string>punctuation.terminator</string>
+			<key>settings</key>
+			<dict>
+ 				<key>foreground</key>
+				<string>#ffffff80</string>
+ 				<key>background</key>
+				<string>#00000003</string>
+			</dict>
+		</dict>
+
+
+
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#fF757f</string>
+			</dict>
+		</dict>
+
+
+		<dict>
+			<key>name</key>
+			<string>C++ Include Entries</string>
+			<key>scope</key>
+			<string>string.quoted.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f1fa8c</string>
+				<key>background</key>
+				<string>#f1fa8c10</string>
+			</dict>
+		</dict>
 
 
 
