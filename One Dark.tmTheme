@@ -160,6 +160,24 @@
 				<string>#a8FFc017</string>
 			</dict>
 		</dict>
+
+
+		<dict>
+			<key>name</key>
+			<string>Structs</string>
+			<key>scope</key>
+			<string>support.enum, entity.name.enum, entity.name.type.enum</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f8aFc0</string>
+				<key>background</key>
+				<string>#f8aFc016</string>
+			</dict>
+		</dict>
+
+
+
 <!-- 		<dict>
 			<key>name</key>
 			<string>Classes</string>
@@ -223,9 +241,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#a3cc84</string>
 				<key>background</key>
-				<string>#98C3790a</string>
+				<string>#a3cc840a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -381,7 +399,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#a3cc84</string>
 			</dict>
 		</dict>
 		<dict>
@@ -447,7 +465,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#a3cc84</string>
 			</dict>
 		</dict>
 		<dict>
@@ -587,7 +605,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#a3cc84</string>
 			</dict>
 		</dict>
 		<dict>
@@ -609,7 +627,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#a3cc84</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1121,6 +1139,17 @@
 			</dict>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>Operators</string>
+			<key>scope</key>
+			<string>keyword.control.import.include.c++</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#3f90f0</string>
+			</dict>
+		</dict>
 
 
 	</array>
